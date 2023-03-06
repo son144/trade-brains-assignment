@@ -1,0 +1,60 @@
+.watchlist-empty {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 5rem;
+  color: rgb(89, 255, 0);
+}
+.watchlist {
+  margin-bottom: 3%;
+  color: #313131;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 4%;
+  color: white;
+}
+.watchlist-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 3%;
+  background-color: #313131;
+  padding: 2rem 1rem 1rem 1rem;
+}
+.child-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  margin-top: 1rem;
+}
+.watchlist-parent {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.parent-watchlist {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+.watchlist-item {
+  padding-left: 1.2rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* media query for mobile width  */
+@media screen and (max-width: 420px) {
+  .watchlist {
+    font-size: 1.2rem;
+  }
+  .watchlist-item {
+    font-size: 0.7;
+  }
+}
